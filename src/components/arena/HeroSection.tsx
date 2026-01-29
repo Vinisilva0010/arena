@@ -76,7 +76,7 @@ export function HeroSection() {
     </a>
 
     <div className="text-gray-500 text-xs font-mono">
-        CA: <span className="text-gray-300 select-all cursor-pointer hover:text-orange-500 transition-colors">8xQz...9Lp2</span> (Click to Copy)
+        CA: <span className="text-gray-300 select-all cursor-pointer hover:text-orange-500 transition-colors">E9h7Upepf1UsYwbUNiCmYcbqVucvwASripTosZx3pump</span> (Click to Copy)
     </div>
 </motion.div>
       </div>
