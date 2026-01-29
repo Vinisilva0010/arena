@@ -58,15 +58,19 @@ export function Header() {
         </nav>
 
         {/* CTA & STATUS */}
-        <div className="hidden md:flex items-center gap-4">
-          <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-green-900/20 border border-green-500/30 text-[10px] font-mono text-green-400">
-            <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-            SYSTEM: ONLINE
+                <div className="hidden md:flex items-center gap-4">
+            <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-green-900/20 border border-green-500/30 text-[10px] font-mono text-green-400">
+              <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+              SYSTEM: ONLINE
+            </div>
+            
+            <a 
+              href="https://unreproductively-haemodynamic-laurel.ngrok-free.dev/"
+              className="bg-white text-black px-5 py-2 text-xs font-black hover:bg-orange-500 transition-colors skew-x-[-10deg] inline-block"
+            >
+              <span className="skew-x-[10deg] block"> APP</span>
+            </a>
           </div>
-          <button className="bg-white text-black px-5 py-2 text-xs font-black hover:bg-orange-500 transition-colors skew-x-[-10deg]">
-            <span className="skew-x-[10deg] block">LAUNCH APP</span>
-          </button>
-        </div>
 
         {/* MOBILE MENU BUTTON */}
         <button 

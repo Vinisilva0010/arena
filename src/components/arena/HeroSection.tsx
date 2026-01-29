@@ -61,19 +61,24 @@ export function HeroSection() {
         </div>
 
         <motion.div 
-            style={{ y: y2 }}
-            className="flex flex-col md:flex-row gap-6 justify-center items-center"
-        >
-            <button className="group relative px-8 py-4 bg-white text-black font-black text-lg skew-x-[-10deg] hover:bg-orange-500 transition-colors">
-                <div className="skew-x-[10deg] flex items-center gap-2">
-                    LAUNCH APP 
-                    <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </div>
-            </button>
-            <div className="text-gray-500 text-xs font-mono">
-                CA: <span className="text-gray-300 select-all cursor-pointer hover:text-orange-500 transition-colors">8xQz...9Lp2</span> (Click to Copy)
-            </div>
-        </motion.div>
+    style={{ y: y2 }}
+    className="flex flex-col md:flex-row gap-6 justify-center items-center"
+>
+    {/* AQUI ESTÁ A ALTERAÇÃO: De <button> para <a> */}
+    <a 
+        href="https://unreproductively-haemodynamic-laurel.ngrok-free.dev/"
+        className="group relative px-8 py-4 bg-white text-black font-black text-lg skew-x-[-10deg] hover:bg-orange-500 transition-colors inline-block"
+    >
+        <div className="skew-x-[10deg] flex items-center gap-2">
+             APP 
+            <span className="group-hover:translate-x-1 transition-transform">→</span>
+        </div>
+    </a>
+
+    <div className="text-gray-500 text-xs font-mono">
+        CA: <span className="text-gray-300 select-all cursor-pointer hover:text-orange-500 transition-colors">8xQz...9Lp2</span> (Click to Copy)
+    </div>
+</motion.div>
       </div>
 
       {/* Grid no Chão */}
